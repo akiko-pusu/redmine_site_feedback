@@ -1,0 +1,3 @@
+= Redmine Site Feedback plugin
+
+Plugin to provide site-wide feedback tab for users to ease the process of accessing feedback forums, issue tracker & information.

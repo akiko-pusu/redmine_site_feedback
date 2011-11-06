@@ -1,0 +1,21 @@
+<p>
+  <%=content_tag(:label, "プラグインを有効にする")%>
+  <%=check_box_tag 'settings[enable]', true, @settings['enable'] == "true" %>
+</p>
+
+<p>
+  <%=content_tag(:label, "ログインユーザにのみ表示する")%>
+  <%=check_box_tag 'settings[hide_anonymous]', true, @settings['hide_anonymous'] == "true" %>
+</p>
+
+<p>
+  <%=content_tag(:label, "Feedback 受付URL") %>
+  <%=text_field_tag 'settings[feedback_url]', @settings['feedback_url'], :size => 50  %><br/>
+  (exp: http://www.redmine.org/projects/redmine/boards/)
+</p>
+
+<p>
+  <%=content_tag(:label, "Feedbackに関する説明") %>
+  <%=text_area_tag 'settings[feedback_description]', @settings['feedback_description'], :size =>"50x3"  %><br/>
+  (Feedback tabのTooltip / title属性として表示されます)
+</p>

@@ -1,0 +1,22 @@
+#feedback {
+	cursor:pointer;
+	border:1px solid #A9AAA1;
+        z-index: 10;
+        border-bottom: 0px;
+}
+
+#banner {
+        background-color: #ffff99;
+        border-color: #f3d51a;
+        border-style: solid;
+        border-width: 1px;
+        font-size 110%;
+        background-image: url(/plugin_assets/redmine_site_feedback/images/about.png);
+        background-repeat: no-repeat; 
+        background-position: left;
+        margin: 5px 5px;
+        padding-left: 10px;
+        padding: 0px 4px;
+        padding-left: 20px;
+}
+
