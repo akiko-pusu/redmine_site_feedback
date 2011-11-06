@@ -1,3 +1,7 @@
 = Redmine Site Feedback plugin
 
 Plugin to provide site-wide feedback tab for users to ease the process of accessing feedback forums, issue tracker & information.
+
+= Note
+
+This plugin using jQuery. Please remove this plugin if you find something wrong on Redmine's Javascript action.
