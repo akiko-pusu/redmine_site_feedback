@@ -13,6 +13,7 @@ Redmine::Plugin.register :redmine_site_feedback do
     :default => {
       'enable' => 'false',
       'hide_anonymous' => 'false',
+      'hide_issue_show_page' => 'false',
       'feedback_url' => '',
       'feedback_description' => 'フィードバック受付用のフォーム（URL)を表示します'
     }

@@ -1,9 +1,0 @@
-<% 
--%>
-<% if Setting.plugin_redmine_site_feedback['enable'] == "true" -%>
-<% if SiteFeedback.activate_tab?(User.current) -%>
-<img src="<%=image_path('feedback.png', :plugin=>'redmine_site_feedback')%>" width="100" height="20" 
-  title="<%= Setting.plugin_redmine_site_feedback['feedback_description'] %>" alt="feedback" id="feedback"/>
-<% end %>
-<% end %>
-

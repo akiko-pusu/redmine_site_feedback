@@ -5,3 +5,8 @@ Plugin to provide site-wide feedback tab for users to ease the process of access
 = Note
 
 This plugin using jQuery. Please remove this plugin if you find something wrong on Redmine's Javascript action.
+
+= TODO
+
+Internationalization.
+

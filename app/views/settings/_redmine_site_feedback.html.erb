@@ -9,6 +9,11 @@
 </p>
 
 <p>
+  <%=content_tag(:label, "チケット詳細画面では表示しない")%>
+  <%=check_box_tag 'settings[hide_issue_show_page]', true, @settings['hide_issue_show_page'] == "true" %>
+</p>
+
+<p>
   <%=content_tag(:label, "Feedback 受付URL") %>
   <%=text_field_tag 'settings[feedback_url]', @settings['feedback_url'], :size => 50  %><br/>
   (exp: http://www.redmine.org/projects/redmine/boards/)
